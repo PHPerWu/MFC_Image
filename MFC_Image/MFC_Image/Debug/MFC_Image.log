@@ -1,0 +1,20 @@
+﻿生成启动时间为 2015/2/5 21:57:46。
+     1>项目“F:\MyProgram\CPP\MFC_Image\MFC_Image\MFC_Image\MFC_Image.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\MFC_Image.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\MFC_Image.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MFC_ImageView.cpp MainFrm.cpp PreviewDlg.cpp
+         MFC_ImageView.cpp
+         正在生成代码...
+         正在编译...
+         PreviewDlg.cpp
+     1>f:\myprogram\cpp\mfc_image\mfc_image\mfc_image\previewdlg.cpp(21): error C2600: “CPreviewDlg::~CPreviewDlg”: 不能定义编译器生成的特殊成员函数(必须首先在类中声明)
+         正在生成代码...
+         正在跳过...(未检测到相关更改)
+         MainFrm.cpp
+     1>已完成生成项目“F:\MyProgram\CPP\MFC_Image\MFC_Image\MFC_Image\MFC_Image.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.48
