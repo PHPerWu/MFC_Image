@@ -31,7 +31,8 @@ BEGIN_MESSAGE_MAP(CMFC_ImageView, CView)
 	ON_WM_RBUTTONUP()
 	ON_COMMAND(ID_32771, &CMFC_ImageView::onShowByZiYuan)
 	ON_COMMAND(ID_32772, &CMFC_ImageView::OnShowFromWenJian)
-	ON_COMMAND(ID_32773, &CMFC_ImageView::On32773)
+
+	ON_COMMAND(ID_32774, &CMFC_ImageView::OnPreview)
 END_MESSAGE_MAP()
 
 // CMFC_ImageView 构造/析构
@@ -176,9 +177,11 @@ void CMFC_ImageView::OnShowFromWenJian()
 }
 
 
-//void CMFC_ImageView::On32773()
-//{
-//	// TODO: 在此添加命令处理程序代码
-//	//CPreviewDlg dlg;
-//	//dlg.DoModal();
-//}
+
+
+void CMFC_ImageView::OnPreview()
+{
+	// TODO: 在此添加命令处理程序代码
+	CPreviewDlg dlg;
+	dlg.DoModal();
+}

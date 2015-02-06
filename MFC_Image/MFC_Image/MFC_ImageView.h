@@ -46,7 +46,8 @@ protected:
 public:
 	afx_msg void onShowByZiYuan();
 	afx_msg void OnShowFromWenJian();
-	afx_msg void On32773();
+
+	afx_msg void OnPreview();
 };
 
 #ifndef _DEBUG  // MFC_ImageView.cpp 中的调试版本
